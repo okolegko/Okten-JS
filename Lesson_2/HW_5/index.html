@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Array</title>
+</head>
+
+<body>
+  <h1>Weekly Temperature Data</h1>
+  <script>
+
+    // #coYydZuaeEB
+    // описати масив, в якому буде зберігатись інформація про температуру вранці, вдень і ввечері за термін в 7 днів.
+    // Як зробити цей масив - вам потрібно подумати. Нормальних варіантів опису - 2. Варіант, коли в вас буде
+    // одновимірний масив з 21 значенням вичключаємо одразу
+
+
+    // Багатовимірний масив: кожен підмасив відповідає температурі за один день (ранок, день, вечір)
+    const weeklyTemperatures = [
+      [15, 20, 18], // День 1: ранок, день, вечір
+      [16, 21, 17], // День 2
+      [14, 19, 16], // День 3
+      [13, 18, 15], // День 4
+      [17, 22, 19], // День 5
+      [16, 21, 18], // День 6
+      [15, 20, 17]  // День 7
+    ];
+
+    // Виведення температур у консоль
+    console.log("Weekly Temperatures:", weeklyTemperatures);
+  </script>
+
+  <script>
+    // Масив об'єктів: кожен об'єкт відповідає дню та має поля для кожної частини доби
+    const weeklyTemperatures = [
+      { morning: 15, afternoon: 20, evening: 18 },
+      { morning: 16, afternoon: 21, evening: 17 },
+      { morning: 14, afternoon: 19, evening: 16 },
+      { morning: 13, afternoon: 18, evening: 15 },
+      { morning: 17, afternoon: 22, evening: 19 },
+      { morning: 16, afternoon: 21, evening: 18 },
+      { morning: 15, afternoon: 20, evening: 17 }
+    ];
+
+    // Виведення температур у консоль
+    console.log("Weekly Temperatures:", weeklyTemperatures);
+  </script>
+
+</body>
+
+</html>
