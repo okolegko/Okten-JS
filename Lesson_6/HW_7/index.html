@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HW_16</title>
+</head>
+<body>
+  <script>
+
+    // #5hqyKTfmc
+    // створити функцію sortNums(array,direction), яка прймає масив чисел, та сортує його від більшого до меньшого,
+    // або навпаки в залежності від значення аргументу direction.
+    //  let nums = [11,21,3];
+    // sortNums(nums,'ascending') // [3,11,21]
+    // sortNums(nums,'descending') // [21,11,3]
+
+    function sortNums(nums, direction) {
+      const numsCopy = [...nums]; // Створюємо копію масиву
+      if (direction === 'ascending') {
+        return numsCopy.sort((a, b) => a - b); // Сортування за зростанням
+      } else if (direction === 'descending') {
+        return numsCopy.sort((a, b) => b - a); // Сортування за спаданням
+      } else {
+        return numsCopy; // Повертає копію масиву, якщо direction некоректний
+      }
+    }
+
+    let nums = [11, 21, 3];
+    console.log(sortNums(nums, 'ascending'));  // [3, 11, 21]
+    console.log(sortNums(nums, 'descending')); // [21, 11, 3]
+
+  </script>
+</body>
+</html>

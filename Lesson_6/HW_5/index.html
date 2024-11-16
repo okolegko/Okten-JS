@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HW_15</title>
+</head>
+
+<body>
+  <script>
+
+    // #bfoJuse4ZzP
+    // Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
+    //  let str = 'Ревуть воли як ясла повні';
+    //  let arr = stringToarray(str); ['Ревуть', 'воли', 'як', 'ясла', 'повні']
+
+    function stringToArray(str) {
+      if (str) {
+        const split = str.split(' ');
+        return split;
+      }
+      return [''];
+    }
+
+    let str = 'Ревуть воли як ясла повні';
+    let arr = stringToArray(str);
+
+    console.log(arr); // ['Ревуть', 'воли', 'як', 'ясла', 'повні']
+  </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HW_11</title>
+</head>
+
+<body>
+
+  <!-- #4LJn7zBx
+  -- взяти з arrays.js масив coursesArray
+  // --написати пошук всіх об'єктів, в яких в modules є sass
+  // --написати пошук всіх об'єктів, в яких в modules є docker -->
+
+  <!-- Підключення масиву -->
+  <script src="arrays.js"></script>
+
+  <script>
+    // --написати пошук всіх об'єктів, в яких в modules є sass
+    console.log(coursesArray.filter(course => {
+      return course.modules.includes('sass');
+    }));
+
+    // --написати пошук всіх об'єктів, в яких в modules є docker
+    console.log(coursesArray.filter(course => {
+      return course.modules.includes('docker');
+    }));
+  </script>
+
+</body>
+</html>
