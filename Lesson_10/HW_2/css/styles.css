@@ -1,0 +1,19 @@
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#age-input-container {
+  margin: 20px 0;
+}
+
+#age {
+  padding: 5px;
+  font-size: 16px;
+}
+
+#message {
+  font-size: 16px;
+  font-weight: bold;
+}

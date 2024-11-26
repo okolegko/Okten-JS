@@ -1,0 +1,31 @@
+<!--
+#kUSgFqWY
+ Створити 3 інпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
+При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HW_8</title>
+  </head>
+
+
+  <body>
+
+    <form name="tableGeneratorForm">
+      <input type="number" name="lines" placeholder="Enter number of rows" required>
+      <input type="number" name="cells" placeholder="Enter number of cells" required>
+      <input type="text" name="data" placeholder="Enter cell content" required>
+      <button type="submit">Generate Table</button>
+    </form>
+
+    <h2>Generated Table:</h2>
+
+    <table id="table" border="1"></table>
+
+    <script src="HW_8.js"></script>
+
+  </body>
+</html>

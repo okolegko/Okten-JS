@@ -1,0 +1,36 @@
+<!--
+#ymAmN2xJ
+Стоврити форму з трьома полями для name,sruname,age та кнопкою. При натисканні на кнопку зчитати данні з полів,
+та вивести об'єкт в документ. Іншими словами : заповниои форму, натиснули кнопку, під формою з'явився блок з вашим об'єктом
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HW_3</title>
+  </head>
+
+
+  <body>
+
+    <form name="someForm">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" required>
+
+      <label for="surname">Surname:</label>
+      <input type="text" name="surname" id="surname" required>
+
+      <label for="age">Age:</label>
+      <input type="number" name="age" id="age" required>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="target"></div>
+
+    <script src="HW_3.js"></script>
+
+  </body>
+
+</html>

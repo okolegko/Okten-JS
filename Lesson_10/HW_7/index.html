@@ -1,0 +1,29 @@
+<!--
+В localStorage зберігаються масиви. Вам потрібно зробити функцію, які дістає потрібний вам масив з localStorage та додає в нього об'єкт
+сигнатура функції -
+addToLocalStorage(arrayName:string,objToAdd:any{}):void
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>HW_7</title>
+  </head>
+
+
+  <body>
+
+    <h1>Input Data in LocalStorage</h1>
+    <input type="text" id="nameInput" placeholder="Enter name">
+    <input type="number" id="ageInput" placeholder="Enter age">
+    <button onclick="addData()">Add Data</button>
+
+    <h2>Data in LocalStorage:</h2>
+    <ul id="dataList"></ul>
+
+    <script src="HW_7.js"></script>
+  </body>
+
+</html>
