@@ -12,4 +12,5 @@ if (!lastUpdateTime || now - lastUpdateTime > 10000) {
   localStorage.setItem(TIME_KEY, now);
 }
 
+
 document.getElementById('priceBlock').innerText = `${currentPrice} грн`;

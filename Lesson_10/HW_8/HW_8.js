@@ -16,6 +16,7 @@ tableGeneratorForm.onsubmit = function (e) {
       td.innerText = dataValue;
       tr.appendChild(td);
     }
+
     table.appendChild(tr);
   }
 };

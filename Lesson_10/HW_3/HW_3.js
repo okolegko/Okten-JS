@@ -13,6 +13,5 @@ someForm.addEventListener('submit', (e) => {
   // Виведення об'єкта в консоль
   console.log(obj);
 
-  // Виведення об'єкта під формою
   target.innerText = `Name: ${obj.nameValue}, Surname: ${obj.surnameValue}, Age: ${obj.ageValue}`;
 });

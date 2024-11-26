@@ -21,4 +21,5 @@ function displayData() {
   ).join('');
 }
 
+
 displayData();

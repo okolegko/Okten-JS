@@ -1,6 +1,7 @@
 const input = document.getElementById('kgInput');
 const resultDiv = document.getElementById('result');
 
+
 input.oninput = function () {
   const kg = +this.value;
   if (kg) {

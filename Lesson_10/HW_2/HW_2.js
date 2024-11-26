@@ -5,7 +5,6 @@ submitButton.onclick = function () {
   const message = document.getElementById('message');
   const age = parseInt(ageInput.value);
 
-  // Перевірка на числове значення та вік менший за нуль
   if (isNaN(age)) {
     message.textContent = "Please enter a valid number.";
   } else if (age < 0) {
